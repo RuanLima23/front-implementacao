@@ -1,6 +1,8 @@
 'use client';
 import { useEffect, useState } from 'react';
 import api from '../services/api';
+import React from 'react';
+
 
 type Todo = {
   id: number;
@@ -46,7 +48,7 @@ export default function Home() {
             placeholder="Digite sua tarefa"
           />
           <button style={styles.addButton} onClick={addTodo}>
-            ➕ Adicionar
+
           </button>
         </div>
 
