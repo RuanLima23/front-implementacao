@@ -7,7 +7,7 @@ import React from 'react';
 type Todo = {
   id: number;
   title: string;
-  createdAt: string;
+  createdAt: Date;
 };
 
 export default function Home() {
